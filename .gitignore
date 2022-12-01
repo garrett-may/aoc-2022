@@ -8,7 +8,6 @@
 !days/
 !days/*/
 !days/*/Cargo.toml
-!days/*/build/
 !days/*/src/
 !days/*/src/*
 !days/*/res/

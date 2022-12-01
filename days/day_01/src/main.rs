@@ -13,7 +13,7 @@ use std::fs;
 // [["100", "200], ["300"]]
 //
 fn read_file(filepath: &str) -> Vec<Vec<std::string::String>> {
-    fs::read_to_string(["../res/", filepath].join(""))
+    fs::read_to_string(["res/", filepath].join(""))
         .expect("Unable to read file")
         .replace('\r', "") // Strip all carriage returns (found on WSL)
         .split("\n\n")
